@@ -9,7 +9,7 @@ logging.warn('app start!')
 app = Flask(__name__)
 
 # Set key to use session of flask
-app.secret_key = os.environ['SECRET_KEY']
+#app.secret_key = os.environ['SECRET_KEY']
 
 # Set root page
 @app.route('/')
